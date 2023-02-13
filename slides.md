@@ -247,7 +247,7 @@ declare module 'remoteApp/Module';
 
 ---
 layout: image-side
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+image: 'https://source.unsplash.com/random/1920x1080?abstract&#32art'
 ---
 
 # Unexpected behavior
