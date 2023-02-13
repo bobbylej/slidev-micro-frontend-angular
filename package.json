@@ -10,5 +10,8 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-theme-zhozhoba": "^1.0.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.30.0"
   }
 }

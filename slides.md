@@ -3,6 +3,7 @@ theme: zhozhoba
 layout: cover
 company: Mateusz Adamczyk
 date: 17.02.2023
+remoteAssets: false
 ---
 <style>
   #app {
