@@ -1,9 +1,12 @@
 {
   "private": true,
+  "homepage": "https://bobbylej.github.io/slidev-micro-frontend-angular",
   "scripts": {
     "dev": "slidev",
     "build": "slidev build",
-    "export": "slidev export"
+    "export": "slidev export",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "latest",
@@ -12,6 +15,7 @@
     "slidev-theme-zhozhoba": "^1.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "playwright-chromium": "^1.30.0"
   }
 }
